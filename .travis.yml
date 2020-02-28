@@ -1,0 +1,6 @@
+services:
+  - docker
+
+script:
+  - docker image build -t macknixon/blahtest .
+  - docker container run macknixon/blahtest .
